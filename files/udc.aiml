@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hello! I'm your career advisor bot. I can recommend computer science jobs. What area are you most interested in: programming, databases, security, web, or systems?
+    </template>
+  </category>
+  <category>
+    <pattern>PROGRAMMING</pattern>
+    <template>
+      You might enjoy being a Software Developer! Software developers create applications and systems using code.
+    </template>
+  </category>
+  <category>
+    <pattern>DATABASES</pattern>
+    <template>
+      Consider a career as a Database Administrator! Database admins organize, secure, and maintain data systems.
+    </template>
+  </category>
+  <category>
+    <pattern>SECURITY</pattern>
+    <template>
+      You might excel as an Information Security Analyst! These professionals protect organizations' computer networks and data from cyber threats.
+    </template>
+  </category>
+  <category>
+    <pattern>WEB</pattern>
+    <template>
+      A career as a Web Developer could be a great fit! Web developers build and maintain websites and ensure an engaging user experience.
+    </template>
+  </category>
+  <category>
+    <pattern>SYSTEMS</pattern>
+    <template>
+      You might consider Systems Analyst roles! Systems analysts design and improve computer systems for organizations.
+    </template>
+  </category>
+</aiml>
